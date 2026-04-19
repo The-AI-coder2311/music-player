@@ -1,2 +1,16 @@
 python-vlc
 tkinterdnd2
+os
+sys
+threading
+sqlite3
+re
+base64
+json
+ctypes
+urllib
+time
+shutil
+zipfile
+subprocess
+random
