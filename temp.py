@@ -16,7 +16,30 @@ from zipfile import ZipFile
 import random
 import re
 import subprocess
+# useless.py
 
+def do_nothing():
+    pass
+
+def also_useless(x):
+    return x
+
+def loop_to_nowhere():
+    for i in range(10):
+        i = i
+
+class Empty:
+    def __init__(self):
+        self.data = None
+
+    def run(self):
+        return None
+
+if __name__ == "__main__":
+    do_nothing()
+    also_useless("nothing")
+    loop_to_nowhere()
+    Empty().run()
 
 #  Ayhu#1337
 #
