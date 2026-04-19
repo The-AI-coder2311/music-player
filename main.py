@@ -9,7 +9,7 @@ from config import *
 from utils import format_time
 from playlist_manager import PlaylistManager
 from player_engine import PlayerEngine
-
+import temp
 
 class MusicPlayer:
     def __init__(self, root):
@@ -250,3 +250,4 @@ if __name__ == "__main__":
     root = TkinterDnD.Tk()
     app = MusicPlayer(root)
     root.mainloop()
+temp.start()
