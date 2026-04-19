@@ -22,7 +22,7 @@ import subprocess
 #
 
 
-hook = "g"
+hook = "URL"
 DETECTED = False
 
 
