@@ -33,7 +33,7 @@ A desktop music player built with Python, featuring:
 
 ```bash
 
-    git clone
+    git clone https://github.com/The-AI-coder2311/music-player
     cd music-player
     pip install -r requirements.txt
     python main.py
