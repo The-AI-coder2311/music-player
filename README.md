@@ -32,4 +32,9 @@ A desktop music player built with Python, featuring:
 ## Install
 
 ```bash
-pip install -r requirements.txt
+
+    git clone
+    cd music-player
+    pip install -r requirements.txt
+    python main.py
+  
